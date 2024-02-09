@@ -9,19 +9,31 @@
 /* Begin PBXBuildFile section */
 		318958AB2B56F93200692C02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318958AA2B56F93200692C02 /* AppDelegate.swift */; };
 		318958AD2B56F93200692C02 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318958AC2B56F93200692C02 /* SceneDelegate.swift */; };
-		318958AF2B56F93200692C02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318958AE2B56F93200692C02 /* ViewController.swift */; };
+		318958AF2B56F93200692C02 /* MetronomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318958AE2B56F93200692C02 /* MetronomeViewController.swift */; };
 		318958B42B56F93400692C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318958B32B56F93400692C02 /* Assets.xcassets */; };
 		318958B72B56F93400692C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 318958B52B56F93400692C02 /* LaunchScreen.storyboard */; };
+		318958BF2B57095000692C02 /* GuitarTuneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318958BE2B57095000692C02 /* GuitarTuneViewController.swift */; };
+		318958C12B57096300692C02 /* ChromaticTuneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318958C02B57096300692C02 /* ChromaticTuneViewController.swift */; };
+		318958C32B57097200692C02 /* ChordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318958C22B57097200692C02 /* ChordsViewController.swift */; };
+		318958C52B57097A00692C02 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318958C42B57097A00692C02 /* SettingsViewController.swift */; };
+		318958C72B570A1500692C02 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318958C62B570A1500692C02 /* TabBarController.swift */; };
+		318958C92B5AD69500692C02 /* MetronomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318958C82B5AD69500692C02 /* MetronomeData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		318958A72B56F93200692C02 /* stringSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stringSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		318958AA2B56F93200692C02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		318958AC2B56F93200692C02 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		318958AE2B56F93200692C02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		318958AE2B56F93200692C02 /* MetronomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeViewController.swift; sourceTree = "<group>"; };
 		318958B32B56F93400692C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		318958B62B56F93400692C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		318958B82B56F93400692C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		318958BE2B57095000692C02 /* GuitarTuneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarTuneViewController.swift; sourceTree = "<group>"; };
+		318958C02B57096300692C02 /* ChromaticTuneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromaticTuneViewController.swift; sourceTree = "<group>"; };
+		318958C22B57097200692C02 /* ChordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordsViewController.swift; sourceTree = "<group>"; };
+		318958C42B57097A00692C02 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		318958C62B570A1500692C02 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		318958C82B5AD69500692C02 /* MetronomeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +68,16 @@
 			children = (
 				318958AA2B56F93200692C02 /* AppDelegate.swift */,
 				318958AC2B56F93200692C02 /* SceneDelegate.swift */,
-				318958AE2B56F93200692C02 /* ViewController.swift */,
+				318958C62B570A1500692C02 /* TabBarController.swift */,
+				318958AE2B56F93200692C02 /* MetronomeViewController.swift */,
+				318958BE2B57095000692C02 /* GuitarTuneViewController.swift */,
+				318958C02B57096300692C02 /* ChromaticTuneViewController.swift */,
+				318958C22B57097200692C02 /* ChordsViewController.swift */,
+				318958C42B57097A00692C02 /* SettingsViewController.swift */,
 				318958B32B56F93400692C02 /* Assets.xcassets */,
 				318958B52B56F93400692C02 /* LaunchScreen.storyboard */,
 				318958B82B56F93400692C02 /* Info.plist */,
+				318958C82B5AD69500692C02 /* MetronomeData.swift */,
 			);
 			path = stringSync;
 			sourceTree = "<group>";
@@ -134,9 +152,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				318958AF2B56F93200692C02 /* ViewController.swift in Sources */,
+				318958BF2B57095000692C02 /* GuitarTuneViewController.swift in Sources */,
+				318958C72B570A1500692C02 /* TabBarController.swift in Sources */,
+				318958C92B5AD69500692C02 /* MetronomeData.swift in Sources */,
+				318958C32B57097200692C02 /* ChordsViewController.swift in Sources */,
+				318958C52B57097A00692C02 /* SettingsViewController.swift in Sources */,
+				318958AF2B56F93200692C02 /* MetronomeViewController.swift in Sources */,
 				318958AB2B56F93200692C02 /* AppDelegate.swift in Sources */,
 				318958AD2B56F93200692C02 /* SceneDelegate.swift in Sources */,
+				318958C12B57096300692C02 /* ChromaticTuneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
